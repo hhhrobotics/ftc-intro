@@ -30,9 +30,13 @@ class Car {
 Since the fields are declared as `public`, they can be accessed from outside the class:
 
 ```java
-Car myCar = new Car();
-myCar.make = "Toyota";
-myCar.model = "Corolla";
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        myCar.make = "Toyota";
+        myCar.model = "Corolla";
+    }
+}
 ```
 
 If a field is declared as `private`, it can only be accessed from within the class.
@@ -83,10 +87,14 @@ class Car {
 Here is how you can call methods in Java:
 
 ```java
-Car myCar = new Car();
-myCar.start();
-myCar.drive(10.5);
-double mpg = myCar.getMilesPerGallon();
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        myCar.start();
+        myCar.drive(10.5);
+        double mpg = myCar.getMilesPerGallon();
+    }
+}
 ```
 
 ### Constructors
@@ -121,7 +129,11 @@ to distinguish them from the parameters with the same names.
 Here is how you can create an object using the constructor:
 
 ```java
-Car myCar = new Car("Toyota", "Corolla", 2020);
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car("Toyota", "Corolla", 2020);
+    }
+}
 ```
 
 ### Getters and Setters
@@ -178,10 +190,14 @@ The exception means that the program will stop running and display an error mess
 Here is how you can use getters and setters:
 
 ```java
-Car myCar = new Car();
-myCar.setMake("Toyota");
-myCar.setModel("Corolla");
-myCar.setYear(2020);
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        myCar.setMake("Toyota");
+        myCar.setModel("Corolla");
+        myCar.setYear(2020);
+    }
+}
 ```
 
 Sometimes you may see getters and setters referred to as "accessor" and "mutator" methods, respectively.
@@ -210,8 +226,12 @@ It is also declared as `final`, which means that it is a constant and cannot be 
 To use static methods or fields, you can access them using the class name:
 
 ```java
-double mpg = Car.MILES_PER_GALLON;
-double root2 = Math.sqrt(2.0); 
+public class Main {
+    public static void main(String[] args) {
+        double mpg = Car.MILES_PER_GALLON;
+        double root2 = Math.sqrt(2.0);
+    }
+}
 ```
 
 `Math` is a class in Java that contains static methods for mathematical operations,

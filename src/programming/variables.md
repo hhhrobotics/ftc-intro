@@ -5,32 +5,52 @@ They are like containers that hold data.
 The data stored in a variable can be changed during the execution of the program,
 unless the variable is declared as a constant.
 
+`System.out.println()` is a function built in to Java that prints its argument to the console.
+
 ## Declaring and Instantiating Variables
 
 To declare a variable, you need to specify the type of the variable and a name for the variable.
 Here is an example of declaring a variable of type `int`:
 
 ```java
-int number;
+public class Main {
+    public static void main(String[] args) {
+        int number;
+        String word;
+        boolean flag;
+    }
+}
 ```
 
 To instantiate a variable, you need to assign a value to the variable.
 Here is an example of instantiating a variable of type `int`:
 
 ```java
-int number;
-number = 5;
+public class Main {
+    public static void main(String[] args) {
+        int number;
+        number = 5;
 
-int anotherNumber = 10; // you can also declare and instantiate a variable in one line
+        int anotherNumber = 10; // you can also declare and instantiate a variable in one line
+        String word = "word";
+        String sentence = "This is a sentence.";
+        
+        boolean flag = true;
+    }
+}
 ```
 
 You can also declare and instantiate multiple variables in one line:
 
 ```java
-int number1, number2, number3;
-number1 = 1;
-number2 = 2;
-number3 = 3;
+public class Main {
+    public static void main(String[] args) {
+        int number1, number2, number3;
+        number1 = 1;
+        number2 = 2;
+        number3 = 3;
+    }
+}
 ```
 
 ## Constants
