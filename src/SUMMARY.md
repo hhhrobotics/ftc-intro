@@ -12,6 +12,14 @@
 - [Inheritance](programming/inheritance.md)
 - [Collections](programming/collections.md)
 
-# FTC Programming: Interaction with the Robot
+# Interaction with the Robot Controller
 
 - [Overview](robot/overview.md)
+- [OpModes](robot/opmodes.md)
+- [HardwareMap](robot/hardwaremap.md)
+
+# Hardware
+- [Motors](hardware/motors.md)
+
+# Motion 
+- [Mecanum Drive](motion/mecanum.md)
