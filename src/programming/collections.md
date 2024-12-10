@@ -52,6 +52,16 @@ This means that arrays are not as flexible as other collection types in Java.
 
 ## Lists
 
+```admonish note
+You must import the `List` interface,
+or any other collection interface or class you want to use,
+such as `ArrayList` or `LinkedList`,
+from the `java.util` package.
+
+Most IDEs will automatically import the necessary classes for you when you use them,
+including Android Studio, which is used in FTC.
+```
+
 A list is a dynamic collection of elements that can grow or shrink in size.
 In Java, the `List` interface is a common way to work with lists. 
 Some common implementations of the `List` interface are `ArrayList` and `LinkedList`.
@@ -87,11 +97,7 @@ public class Main {
 }
 ```
 
-```admonish note
 
-You must import the `ArrayList` class from the `java.util` package to use it in your code,
-as it is not part of the core Java language.
-The `import` statement tells the compiler where to find the `ArrayList` class.
 
 The `ArrayList` class provides methods to add, remove, and access elements in the list.
 You can add elements to the end of the list using the `add` method, as shown in the example above.

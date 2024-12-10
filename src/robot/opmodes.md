@@ -71,8 +71,6 @@ are `double` values that range from `0.0` to `1.0`, where `0.0` is not pressed a
 The gamepad properties are updated automatically every time the `loop` method is called.
 In a `LinearOpMode`, the gamepad properties are updated automatically every iteration of the `while (opModeIsActive())` loop.
 
-```admonish important
-
 ## LinearOpMode
 
 LinearOpMode is a class that extends the `OpMode` class and provides a linear structure for writing OpModes.
