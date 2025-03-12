@@ -11,8 +11,8 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside'
-  DOCKER_VERSION: 'XXX.YYYYY'
+  INSTANCE: 'Writerside/ftc'
+  DOCKER_VERSION: '23.0.3'
   # IS_GROUP: 'true'  # Uncomment to build a group
 
 jobs:
