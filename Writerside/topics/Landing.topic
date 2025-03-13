@@ -19,47 +19,24 @@
         <title>Welcome to FTC Intro!</title>
         <description>
             This guide is designed to teach you the basics of programming for FIRST Tech Challenge.
+            FTC Programming uses the Java and Kotlin programming languages.
         </description>
 
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="" type="account" summary="This overrides the card summary of the topic">Custom card title</a>
-            <a href="" type="search" summary="This overrides the card summary of the topic">Another custom title</a>
+            <a href="java-overview.md" />
+            <a href="robot-overview.md" />
         </spotlight>
-
-        <!--    Add several topics that are most important for this section.    -->
-        <primary>
-            <title>Get started</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
-        </primary>
-
-        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
-        <secondary>
-            <title>Explore advanced features</title>
-            <a href=""/>
-            <a href="" summary="With a custom card summary"/>
-            <a href="">Custom card title</a>
-            <a href="" summary="With a custom card summary">Custom card title</a>
-        </secondary>
 
         <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
         <misc><links>
                 <group>
-                    <title>Other related topics as links</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
-                </group>
-                <group>
-                    <title>Two in a row</title>
-                    <a href=""/>
-                    <a href="" summary="With a custom card summary"/>
-                    <a href="">Custom card title</a>
-                    <a href="" summary="With a custom card summary">Custom card title</a>
+                    <title>Useful Resources</title>
+                    <a href="https://github.com/alan412/LearnJavaForFTC/">Learn Java For FTC</a>
+                    <a href="https://ftc-docs.firstinspires.org/en/latest/">Official FTC Documentation</a>
+                    <a href="https://gm0.org/en/latest/">Game Manual 0</a>
+                    <a href="https://dev.java/learn/">Java Tutorials</a>
+                    <a href="https://kotlinlang.org/docs/home.html">Kotlin Language and Tutorials</a>
                 </group>
             </links>
         </misc>
